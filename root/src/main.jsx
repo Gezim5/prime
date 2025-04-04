@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import App from ".root/app";
+import App from ".root/src/app";
 import ".root/index.css"; // Ensure Tailwind is loaded
 
 ReactDOM.createRoot(document.getElementById("root")).render(
