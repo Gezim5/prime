@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "root/logo.jpg";
-import shop1 from "root/shop1.webp";
-import shop2 from "root/shop2.webp";
+import logo from "/logo.jpg";
+import shop1 from "/shop1.webp";
+import shop2 from "/shop2.webp";
 
 
 const About = () => {

@@ -5,7 +5,7 @@ const MainPage = () => {
     <div className="home-container">
       {/* Video Background Section */}
       <section className="video-wrapper">
-        <video src="root/background2.mp4" autoPlay loop muted playsInline />
+        <video src="/background2.mp4" autoPlay loop muted playsInline />
         {/* Text Overlay */}
         <div className="video-text">
           <h1>

@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className="navbar">
       <img src={logo} alt="Prime Hairstyle" className="nav-logo" />
       <div className="nav-links">
-        <Link to="root/" className="nav-link">Startseite</Link>
-        <Link to="root/about" className="nav-link">Über Uns</Link>
-        <Link to="root/products" className="nav-link">Produkte</Link>
-        <Link to="root/contact" className="nav-link">Kontakt</Link>
+        <Link to="/" className="nav-link">Startseite</Link>
+        <Link to="/about" className="nav-link">Über Uns</Link>
+        <Link to="/products" className="nav-link">Produkte</Link>
+        <Link to="/contact" className="nav-link">Kontakt</Link>
       </div>
     </nav>
   );
