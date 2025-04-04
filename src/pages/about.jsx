@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "ogo.jpg";
+import logo from "logo.jpg";
 import shop1 from "shop1.webp";
 import shop2 from "shop2.webp";
 
