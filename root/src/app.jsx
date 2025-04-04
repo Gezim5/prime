@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Products from "./pages/products";
-import Contact from "./pages/contact";
+import Navbar from ".root/components/navbar";
+import Footer from ".root/components/footer";
+import Home from ".root/pages/home";
+import About from ".root/pages/about";
+import Products from ".root/pages/products";
+import Contact from ".root/pages/contact";
 
 const App = () => {
   return (
@@ -13,10 +13,10 @@ const App = () => {
       <Navbar />
       <div className="content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="root/" element={<Home />} />
+          <Route path="root/about" element={<About />} />
+          <Route path="root/products" element={<Products />} />
+          <Route path="root/contact" element={<Contact />} />
         </Routes>
       </div>
       <Footer />
